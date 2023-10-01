@@ -1460,7 +1460,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/sourcemap-codec@npm:^1.4.10, @jridgewell/sourcemap-codec@npm:^1.4.13":
+"@jridgewell/sourcemap-codec@npm:^1.4.10, @jridgewell/sourcemap-codec@npm:^1.4.13, @jridgewell/sourcemap-codec@npm:^1.4.15":
   version: 1.4.15
   resolution: "@jridgewell/sourcemap-codec@npm:1.4.15"
   checksum: b881c7e503db3fc7f3c1f35a1dd2655a188cc51a3612d76efc8a6eb74728bef5606e6758ee77423e564092b4a518aba569bbb21c9bac5ab7a35b0c6ae7e344c8
@@ -5787,12 +5787,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:~0.26.2":
-  version: 0.26.7
-  resolution: "magic-string@npm:0.26.7"
+"magic-string@npm:~0.30.0":
+  version: 0.30.4
+  resolution: "magic-string@npm:0.30.4"
   dependencies:
-    sourcemap-codec: ^1.4.8
-  checksum: 89b0d60cbb32bbf3d1e23c46ea93db082d18a8230b972027aecb10a40bba51be519ecce0674f995571e3affe917b76b09f59d8dbc9a1b2c9c4102a2b6e8a2b01
+    "@jridgewell/sourcemap-codec": ^1.4.15
+  checksum: bef57c926d14e9926c142307c1494cc4bdea28a56601a7624f1a5bcd34a63800e2d8a363e826436ce86104460a63ee76c7c185a6ab1f8f7ee5af2de475b98947
   languageName: node
   linkType: hard
 
@@ -6025,12 +6025,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mkdirp@npm:^1.0.3, mkdirp@npm:^1.0.4, mkdirp@npm:~1.0.4":
+"mkdirp@npm:^1.0.3, mkdirp@npm:^1.0.4":
   version: 1.0.4
   resolution: "mkdirp@npm:1.0.4"
   bin:
     mkdirp: bin/cmd.js
   checksum: a96865108c6c3b1b8e1d5e9f11843de1e077e57737602de1b82030815f311be11f96f09cce59bd5b903d0b29834733e5313f9301e3ed6d6f6fba2eae0df4298f
+  languageName: node
+  linkType: hard
+
+"mkdirp@npm:~3.0.0":
+  version: 3.0.1
+  resolution: "mkdirp@npm:3.0.1"
+  bin:
+    mkdirp: dist/cjs/src/bin.js
+  checksum: 972deb188e8fb55547f1e58d66bd6b4a3623bf0c7137802582602d73e6480c1c2268dcbafbfb1be466e00cc7e56ac514d7fd9334b7cf33e3e2ab547c16f83a8d
   languageName: node
   linkType: hard
 
@@ -6886,7 +6895,7 @@ __metadata:
     remark-footnotes: 2.0.0
     remark-math: 3.0.1
     remark-parse: 8.0.3
-    rollup-plugin-license: 3.0.1
+    rollup-plugin-license: 3.1.0
     sdbm: 2.0.0
     semver: 7.5.2
     serialize-javascript: 6.0.1
@@ -7296,22 +7305,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-license@npm:3.0.1":
-  version: 3.0.1
-  resolution: "rollup-plugin-license@npm:3.0.1"
+"rollup-plugin-license@npm:3.1.0":
+  version: 3.1.0
+  resolution: "rollup-plugin-license@npm:3.1.0"
   dependencies:
     commenting: ~1.1.0
     glob: ~7.2.0
     lodash: ~4.17.21
-    magic-string: ~0.26.2
-    mkdirp: ~1.0.4
+    magic-string: ~0.30.0
+    mkdirp: ~3.0.0
     moment: ~2.29.3
     package-name-regex: ~2.0.6
     spdx-expression-validate: ~2.0.0
     spdx-satisfies: ~5.0.1
   peerDependencies:
     rollup: ^1.0.0 || ^2.0.0 || ^3.0.0
-  checksum: bff41568d71f54968c664a995190a1d2e0be1b5fa87983d3ea0e70d0c78c943dad01f43dd0be07883b6960801af61d48e6f1a611e967ac2f8271f7cf96d39a69
+  checksum: 5eba1b1f5b334faf339ce166f56cc7bde1db325b8fb32d1a83d2666f987a52e8ee51d3a7c32d41b00834699c99ac5fbf864e874103f8b1985847851f79a9bf44
   languageName: node
   linkType: hard
 
